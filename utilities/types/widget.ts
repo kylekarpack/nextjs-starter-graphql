@@ -5,4 +5,4 @@ export type Widget = {
   quantity: number;
   cost: number;
   salePrice: number;
-}
+};

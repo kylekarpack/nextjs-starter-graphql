@@ -5,7 +5,6 @@ export const GET_WIDGETS = gql`
     widgets {
       id
       name
-      
     }
   }
 `;
