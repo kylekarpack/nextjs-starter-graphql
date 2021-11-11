@@ -9,7 +9,7 @@ const Index: FunctionComponent = () => {
         <title>NextJS Starter</title>
       </Head>
 
-      <main>
+      <main className="container">
         <h1>Welcome to NextJS Starter GraphQL!</h1>
 
         <div>

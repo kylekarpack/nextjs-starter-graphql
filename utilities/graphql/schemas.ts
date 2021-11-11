@@ -8,7 +8,7 @@ export const typeDefs = gql`
     description: String
     quantity: Int
     cost: Float
-    salePrice: Float;
+    salePrice: Float
   }
 
   type Query {
