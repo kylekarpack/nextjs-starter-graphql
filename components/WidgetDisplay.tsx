@@ -16,7 +16,7 @@ const WidgetDisplay: FunctionComponent = () => {
 
   if (error) {
     return (
-      <div>{error.message}</div>
+      <div data-testid="error">{error.message}</div>
     );
   }
 

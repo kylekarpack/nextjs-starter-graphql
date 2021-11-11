@@ -31,10 +31,11 @@ describe("widget display component", () => {
   });
 
   it("renders error", async () => {
+    const errorText = "Bad";
     const mocks = [
       {
         ...emptyMock,
-        error: new GraphQLError("Bad")
+        error: new GraphQLError(errorText)
       }
     ];
 
@@ -45,6 +46,6 @@ describe("widget display component", () => {
     );
 
     await act(() => new Promise((resolve) => setTimeout(resolve, 0)));
-    expect(cmp.getByTestId("error")).toHaveTextContent("Error");
+    expect(cmp.getByTestId("error")).toHaveTextContent(errorText);
   });
 });
