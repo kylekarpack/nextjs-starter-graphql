@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "name": "orci luctus",
+    "description": "Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet.",
+    "cost": 271.95,
+    "salePrice": 1091.31,
+    "quantity": 31
+  },
+  {
+    "id": 2,
+    "name": "a odio",
+    "description": "Proin risus.",
+    "cost": 386.61,
+    "salePrice": 1196.39,
+    "quantity": 91
+  },
+  {
+    "id": 3,
+    "name": "lectus",
+    "description": "Donec vitae nisi. Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla.",
+    "cost": 318.62,
+    "salePrice": 1074.08,
+    "quantity": 43
+  },
+  {
+    "id": 4,
+    "name": "aenean",
+    "description": "Praesent lectus.",
+    "cost": 161.31,
+    "salePrice": 1307.21,
+    "quantity": 81
+  },
+  {
+    "id": 5,
+    "name": "fusce",
+    "description": "Aliquam augue quam, sollicitudin vitae, consectetuer eget, rutrum at, lorem.",
+    "cost": 310.18,
+    "salePrice": 1063.11,
+    "quantity": 96
+  },
+  {
+    "id": 6,
+    "name": "etiam justo",
+    "description": "Mauris lacinia sapien quis libero.",
+    "cost": 422.9,
+    "salePrice": 997.92,
+    "quantity": 82
+  },
+  {
+    "id": 7,
+    "name": "placerat",
+    "description": "Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam.",
+    "cost": 387.85,
+    "salePrice": 919.04,
+    "quantity": 17
+  },
+  {
+    "id": 8,
+    "name": "nam tristique",
+    "description": "Cras non velit nec nisi vulputate nonummy. Maecenas tincidunt lacus at velit.",
+    "cost": 117.46,
+    "salePrice": 906.11,
+    "quantity": 82
+  },
+  {
+    "id": 9,
+    "name": "nam congue",
+    "description": "Fusce congue, diam id ornare imperdiet, sapien urna pretium nisl, ut volutpat sapien arcu sed augue.",
+    "cost": 486.06,
+    "salePrice": 1123.49,
+    "quantity": 95
+  },
+  {
+    "id": 10,
+    "name": "odio consequat",
+    "description": "Praesent lectus. Vestibulum quam sapien, varius ut, blandit non, interdum in, ante.",
+    "cost": 153.24,
+    "salePrice": 780.32,
+    "quantity": 97
+  }
+]

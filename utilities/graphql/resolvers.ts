@@ -1,18 +1,10 @@
 import { Widget } from "utilities/types";
+import widgets from "data/widgets.json";
 
 export const resolvers = {
   Query: {
     widgets: async (_: never): Promise<Widget[]> => {
-      return [
-        {
-          id: 1,
-          name: "Thing",
-          description: "A thing for various purposes",
-          cost: 23.12,
-          salePrice: 36,
-          quantity: 112
-        }
-      ];
+      return widgets;
     }
   }
 };
