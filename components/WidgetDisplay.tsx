@@ -33,7 +33,7 @@ const WidgetDisplay: FunctionComponent = () => {
       <tbody>
         {data?.widgets?.map((widget) => {
           return (
-            <tr>
+            <tr key={widget.id}>
               <td>{widget.name}</td>
               <td>{widget.description}</td>
               <td>{widget.quantity}</td>
