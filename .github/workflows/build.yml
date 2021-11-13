@@ -7,7 +7,7 @@ on:
     types: [opened, synchronize, reopened]
 jobs:
   test:
-    name: Test
+    name: Build and test
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
@@ -15,5 +15,7 @@ jobs:
           fetch-depth: 0 # Shallow clones should be disabled for a better relevancy of analysis
       - name: Install Packages
         run: npm install --force
+      - name: Run Build
+        run: npm run build
       - name: Run Tests
         run: npm run test -- --coverage --verbose
