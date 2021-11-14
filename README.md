@@ -1,6 +1,6 @@
 # NextJS Starter GraphQL
 
-A basic TypeScript starter for NextJS and Apollo Server/Client, with sensible defaults
+A basic TypeScript starter for NextJS and Apollo Server/Client, with sensible defaults for linting and tests
 
 ## Features
 
@@ -14,6 +14,15 @@ This starter features the following:
 - Linting set up with NextJS eslint
 - Prettier for formatting
 - Github Actions integration for build and test running
+
+## Quick Start
+
+Install dependencies and run the development server
+
+```bash
+npm install
+npm run dev
+```
 
 ## Scripts
 
