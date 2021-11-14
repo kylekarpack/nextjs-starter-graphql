@@ -6,20 +6,22 @@ import { GET_WIDGETS } from "utilities/queries";
 import { Widget } from "utilities/types";
 import WidgetDisplay from "./WidgetDisplay";
 
-const emptyMock: MockedResponse<Record<string, Widget[]>> = {
-  request: {
-    query: GET_WIDGETS
-  },
-  result: {
-    data: {
-      data: []
+const getMock = (data: Widget[] = []): MockedResponse<Record<string, Widget[]>> => {
+  return {
+    request: {
+      query: GET_WIDGETS
+    },
+    result: {
+      data: {
+        widgets: []
+      }
     }
-  }
+  };
 };
 
 describe("widget display component", () => {
-  it("renders", () => {
-    const mocks = [emptyMock];
+  it("renders empty", () => {
+    const mocks = [getMock()];
 
     const cmp = render(
       <MockedProvider mocks={mocks} addTypename={false}>
@@ -34,7 +36,7 @@ describe("widget display component", () => {
     const errorText = "Bad";
     const mocks = [
       {
-        ...emptyMock,
+        ...getMock(),
         error: new GraphQLError(errorText)
       }
     ];

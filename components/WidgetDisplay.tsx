@@ -5,7 +5,7 @@ import { Widget } from "utilities/types";
 import styles from "./WidgetDisplay.module.css";
 
 const WidgetDisplay: FunctionComponent = () => {
-  const { loading, error, data }: QueryResult<{ widgets: Widget[] }> = useQuery(GET_WIDGETS);
+  const { loading, error, data }: QueryResult<Record<string, Widget[]>> = useQuery(GET_WIDGETS);
 
   if (loading) {
     return <div>Loading...</div>;
