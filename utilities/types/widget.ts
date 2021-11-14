@@ -1,6 +1,7 @@
 export type Widget = {
-  id: number;
+  id: string;
   name: string;
+  category: string;
   description: string;
   quantity: number;
   cost: number;

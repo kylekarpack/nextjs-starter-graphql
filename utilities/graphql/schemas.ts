@@ -3,8 +3,9 @@ import { gql } from "apollo-server-micro";
 
 export const typeDefs = gql`
   type Widget {
-    id: Int
+    id: ID
     name: String
+    category: String
     description: String
     quantity: Int
     cost: Float
@@ -12,6 +13,6 @@ export const typeDefs = gql`
   }
 
   type Query {
-    widgets: [Widget]
+    widgets(limit: Int): [Widget]
   }
 `;
