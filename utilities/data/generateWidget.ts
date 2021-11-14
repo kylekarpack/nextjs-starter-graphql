@@ -13,7 +13,7 @@ export const generateWidget = (): Widget => {
   };
 };
 
-export function* generateWidgets(limit: number): Iterable<Widget> {
+export function* generateWidgets(limit: number): IterableIterator<Widget> {
   let i = 0;
   while (i < limit) {
     yield generateWidget();
