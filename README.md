@@ -2,6 +2,9 @@
 
 A basic TypeScript starter for NextJS and Apollo Server/Client, with sensible defaults for linting and tests
 
+## Live Demo
+https://nextjs-starter-graphql.vercel.app/
+
 ## Features
 
 This starter features the following:
