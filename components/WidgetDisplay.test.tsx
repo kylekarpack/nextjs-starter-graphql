@@ -2,9 +2,9 @@ import { MockedProvider, MockedResponse } from "@apollo/client/testing";
 import { act, render } from "@testing-library/react";
 import { GraphQLError } from "graphql";
 import React from "react";
-import { generateWidgetArray } from "utilities/data/generateWidget";
-import { GET_WIDGETS } from "utilities/queries";
-import { Widget } from "utilities/types";
+import { generateWidgetArray } from "lib/data/generateWidget";
+import { GET_WIDGETS } from "lib/queries";
+import { Widget } from "lib/types";
 import WidgetDisplay from "./WidgetDisplay";
 
 const getMock = (limit: number = 0): MockedResponse<Record<string, Widget[]>> => {

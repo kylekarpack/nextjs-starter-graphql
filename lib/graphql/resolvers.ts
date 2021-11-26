@@ -1,5 +1,5 @@
-import { generateWidgets } from "utilities/data/generateWidget";
-import { Widget } from "utilities/types";
+import { generateWidgets } from "lib/data/generateWidget";
+import { Widget } from "lib/types";
 
 export const resolvers = {
   Query: {

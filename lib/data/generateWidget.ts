@@ -1,5 +1,5 @@
 import faker from "faker";
-import { Widget } from "utilities/types";
+import { Widget } from "lib/types";
 
 export const generateWidget = (): Widget => {
   return {

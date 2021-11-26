@@ -1,7 +1,7 @@
 import { useQuery, QueryResult } from "@apollo/client";
 import React, { FunctionComponent } from "react";
-import { GET_WIDGETS } from "utilities/queries";
-import { Widget } from "utilities/types";
+import { GET_WIDGETS } from "lib/queries";
+import { Widget } from "lib/types";
 import styles from "./WidgetDisplay.module.css";
 
 const currencyFormatter = new Intl.NumberFormat("en-US", { style: "currency", currency: "USD" });
